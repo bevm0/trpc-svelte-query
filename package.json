@@ -1,0 +1,26 @@
+{
+  "name": "@bevm0/scuffed-trpc-svelte-query",
+  "version": "0.0.0",
+  "description": "Writing my own scuffed adapter for trpc + svelte-query",
+  "keywords": [
+    "trpc",
+    "svelte-query"
+  ],
+  "homepage": "https://github.com/bevm0/trpc-svelte-query.git",
+  "license": "MIT",
+  "author": "Brian Vo <brianmv@uci.edu>",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevm0/trpc-svelte-query.git",
+    "directory": "packages/svelte-query"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
